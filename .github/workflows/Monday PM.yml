@@ -1,0 +1,20 @@
+name: Monday PM
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "1 10 * * 1"
+
+jobs:
+  Back: 
+   runs-on: ubuntu-latest
+   steps:
+    - name: what's the time
+      run: date
+    - uses: actions/setup-python@v5
+      with:
+        python-version: '3.14.0rc1' 
+        cache: 'pip'
+    - run: |
+        pip install scrapy
+        scrapy --help

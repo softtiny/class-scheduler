@@ -1,0 +1,17 @@
+name: Tuesday AM
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "1 0 * * 2"
+
+jobs:
+  Back: 
+   runs-on: ubuntu-latest
+   steps:
+    - name: what's the time
+      run: date
+    - uses: actions-rust-lang/setup-rust-toolchain@v1
+    - run: |
+        cargo --version
+        rustc --version
