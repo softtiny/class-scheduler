@@ -1,9 +1,9 @@
-name: Monday PM
+name: Thursday PM
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: "1 10 * * 1"
+    - cron: "1 10 * * 4"
 
 jobs:
   Back: 
