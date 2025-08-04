@@ -11,7 +11,9 @@ jobs:
    steps:
     - name: what's the time
       run: date
-    - uses: actions-rust-lang/setup-rust-toolchain@v1
-    - run: |
-        cargo --version
-        rustc --version
+    - name: WebGL2 Fundamentals
+      run: echo "how it's going"
+    - name: webgl-state-diagram
+      run: |
+          echo "step A step b"
+          echo "demos"
