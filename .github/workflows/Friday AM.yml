@@ -11,7 +11,7 @@ jobs:
    steps:
     - name: what's the time
       run: date
-    - uses: actions-rust-lang/setup-rust-toolchain@v1
-    - run: |
-        cargo --version
-        rustc --version
+    - name: "webgl-fundamentals"
+      run: "Triangle Render"
+    - name: "jsfiddle"
+      run: echo "render triangle"
