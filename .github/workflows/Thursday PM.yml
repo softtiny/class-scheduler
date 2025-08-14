@@ -11,7 +11,7 @@ jobs:
    steps:
     - name: what's the time
       run: date
-    - name: what's up
-      run: echo "Triangle Render"
-    - name: codepen
-      run: echo "render triangle"
+    - name: gl webgl gogo
+      run: echo "image process texture uniform"
+    - name: demo github action
+      run: echo "playwright, esmodel, img load"
