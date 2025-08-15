@@ -12,10 +12,10 @@ jobs:
     - name: what's the time
       run: date
     - run: |
-        echo "what's up"
+        echo "lag lag lag"
         sleep 5
-        echo "what's your job"
+        echo "ip port ok...."
         sleep 5
-        echo "Jobs you might like "
+        echo "connect ip port"
         sleep 5
-        echo "Invitations to interview ?"
+        echo "remote test ?"
