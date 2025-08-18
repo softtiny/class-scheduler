@@ -13,7 +13,9 @@ jobs:
       run: date
     - name: WebGL2 Fundamentals
       run: echo "how it's going"
-    - name: WebGL2 Shaders and GLSL
+    - name: 2D translation, rotation, scale, matrix math
       run: |
-          echo "Putting it all together"
-          echo "demo A,B,C,D"
+          echo "WebGL2 2D Translation"
+          echo "WebGL2 2D Rotation"
+          echo "WebGL2 2D Scale"
+          echo "WebGL2 2D Matrices"
