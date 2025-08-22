@@ -12,10 +12,10 @@ jobs:
     - name: what's the time
       run: date
     - run: |
-        echo "lag lag lag"
+        echo "kali down"
         sleep 5
-        echo "ip port ok...."
+        echo "remote gone"
         sleep 5
-        echo "connect ip port"
+        echo "next Monday"
         sleep 5
-        echo "remote test ?"
+        echo "help monday"
