@@ -12,10 +12,10 @@ jobs:
     - name: what's the time
       run: date
     - run: |
-        echo "kali down"
+        echo "WebGL2 2D Rotation"
         sleep 5
-        echo "remote gone"
+        echo "x1*y2+y1*x2"
         sleep 5
-        echo "next Monday"
+        echo "y1*y2-x1*x2"
         sleep 5
         echo "help monday"
