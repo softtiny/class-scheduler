@@ -17,5 +17,6 @@ jobs:
       run: |
           echo "WebGL2 2D Translation"
           echo "WebGL2 2D Rotation"
+          echo "dot product ? cross product?"
           echo "WebGL2 2D Scale"
           echo "WebGL2 2D Matrices"
