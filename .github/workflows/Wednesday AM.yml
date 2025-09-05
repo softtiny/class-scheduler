@@ -11,6 +11,6 @@ jobs:
    steps:
     - name: what's the time
       run: date
-    - uses: webgl ????
-    - run: |
+    - name: webgl
+      run: |
           echo "what are you doing"
