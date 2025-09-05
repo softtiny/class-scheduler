@@ -12,6 +12,6 @@ jobs:
     - name: what's the time
       run: date
     - name: "webgl-fundamentals"
-      run: "Triangle Render"
+      run: echo "Triangle Render"
     - name: "jsfiddle"
       run: echo "render triangle"
