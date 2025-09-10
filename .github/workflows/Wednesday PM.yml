@@ -11,5 +11,7 @@ jobs:
    steps:
     - name: what's the time
       run: date
-    - name: image program
-      run: echo "texture uniform rgb"
+    - name: git patch
+      run: echo "git format-patch ?"
+    - name: git stash remote
+      run: echo "git stash import/export" 
