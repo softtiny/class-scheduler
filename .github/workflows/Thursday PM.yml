@@ -11,7 +11,5 @@ jobs:
    steps:
     - name: what's the time
       run: date
-    - name: WebGL2 2D Rotation
-      run: echo " 123 * 1 = 123"
-    - name: a unit circle? what
-      run: echo "multiply geometry"
+    - name: Further Pure Mathematics
+      run: echo "Matrices and transformations"
