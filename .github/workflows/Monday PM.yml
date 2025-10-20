@@ -11,12 +11,11 @@ jobs:
    steps:
     - name: what's the time
       run: date
-    - name: WebGL2 Fundamentals
-      run: echo "how it's going"
-    - name: 2D translation, rotation, scale, matrix math
+    - name: Further Mathematics
+      run: echo "Matrices and transformations"
+    - name: Transformations
       run: |
-          echo "WebGL2 2D Translation"
-          echo "WebGL2 2D Rotation"
-          echo "dot product ? cross product?"
-          echo "WebGL2 2D Scale"
-          echo "WebGL2 2D Matrices"
+          echo "The original point, or shape, is called the object."
+          echo "The new point, or shape, after the transformation, is called the image."
+          echo "A transformation is a mapping of an object onto its image"
+          echo "Reflection  Rotation  Enlargement "
