@@ -13,9 +13,6 @@ jobs:
       run: date
     - name: Further Mathematics
       run: echo "Matrices and transformations"
-    - name: Transformations
+    - name: Why
       run: |
-          echo "The original point, or shape, is called the object."
-          echo "The new point, or shape, after the transformation, is called the image."
-          echo "A transformation is a mapping of an object onto its image"
-          echo "Reflection  Rotation  Enlargement "
+          echo "I don't known why."
