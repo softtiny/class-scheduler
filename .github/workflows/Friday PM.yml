@@ -12,10 +12,10 @@ jobs:
     - name: what's the time
       run: date
     - run: |
-        echo "WebGL2 2D Rotation"
+        echo "WebGL2 3D Perspective"
         sleep 5
-        echo "x1*y2+y1*x2"
+        echo "WebGL2 3D Perspective"
         sleep 5
-        echo "y1*y2-x1*x2"
+        echo "WebGL2 3D Perspective"
         sleep 5
-        echo "help monday"
+        echo "Perspective"
