@@ -11,8 +11,9 @@ jobs:
    steps:
     - name: what's the time
       run: date
-    - name: Back to Webgl
-      run: echo "webgl 3D"
-    - name: Why
+    - name: 3D Perspective Algorithms 
+      run: echo "exactly what actually happens inside the GPU when you call mat4.perspective() and why it creates that realistic 'far = smaller' effect."
+    - name: The Core Perspective Algorithm
       run: |
-          echo "I don't known why."
+          echo " (What the GPU really does)"
+          echo "OpenGL-style perspective projection matrix."
