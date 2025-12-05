@@ -12,10 +12,14 @@ jobs:
     - name: what's the time
       run: date
     - run: |
-        echo "WebGL2 3D Perspective"
+        echo "What is perspective? It’s basically the feature that things that are further away appear smaller."
         sleep 5
-        echo "WebGL2 3D Perspective"
+        echo "What 'Perspective' Actually Means in 3D Graphics"
         sleep 5
         echo "WebGL2 3D Perspective"
         sleep 5
         echo "Perspective"
+    - name: In real life
+      run: |
+        echo "Objects that are far away look smaller."
+        echo "Parallel lines (like railway tracks) appear to meet at the horizon."

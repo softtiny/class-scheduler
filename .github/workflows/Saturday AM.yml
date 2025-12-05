@@ -11,7 +11,11 @@ jobs:
    steps:
     - name: what's the time
       run: date
-    - uses: actions-rust-lang/setup-rust-toolchain@v1
-    - run: |
-        cargo --version
-        rustc --version
+    - name: The Four Spaces a Vertex Travels Through
+      run: |
+        echo "step: Object/Model"
+        echo "step: World"
+        echo "step: View / Eye / Camera"
+        echo "step: Clip"
+        echo "step: NDC (Normalized Device)"
+        echo "step: Screen "
