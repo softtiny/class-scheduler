@@ -11,9 +11,12 @@ jobs:
    steps:
     - name: what's the time
       run: date
-    - name: WebGL2 Fundamentals
+    - name: WebGL2 3D Perspective.md
       run: echo "how it's going"
-    - name: webgl-state-diagram
+    - name: It transforms 3D coordinates into 2D coordinates suitable for rendering on a screen
       run: |
-          echo "step A step b"
-          echo "demos"
+          echo "out:mat4:The receiving matrix (will be overwritten with the result)"
+          echo "fovy:Number:Field of view in radians in the vertical direction (y-axis)"
+          echo "aspect:Number:Aspect ratio = canvas width ÷ canvas height (e.g. 16/9, 4/3, 1, etc.)"
+          echo "near:Number:Distance to the near clipping plane (must be > 0)"
+          echo "far:Number:Distance to the far clipping plane (must be > near)"
