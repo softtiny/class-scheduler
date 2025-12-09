@@ -11,7 +11,7 @@ jobs:
    steps:
     - name: what's the time
       run: date
-    - uses: actions-rust-lang/setup-rust-toolchain@v1
-    - run: |
-        cargo --version
-        rustc --version
+    - name: What is a 3D perspective ?
+      run: |
+          echo "A perspective allows you to see in three dimensions, width, depth and height. The name 3D perspective would be a pleonasm, because the perspective is in itself a three-dimensional representation. It can be used in an interior or exterior architectural project."
+          echo "The 3D visualization  can be different according to the needs, but in any case it brings an undeniable added value during presentations for competitions, building permits, sales brochures, for example."

@@ -11,6 +11,6 @@ jobs:
    steps:
     - name: what's the time
       run: date
-    - name: WebGL2 Image Processing
+    - name: WebGL2 3D Perspective
       run: |
-          echo "textures draw image"
+          echo "Why is the fact that WebGL automatically divides by W useful? Because now, using more matrix magic, we can just use yet another matrix to copy z to w."
