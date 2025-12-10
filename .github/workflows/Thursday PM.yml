@@ -11,5 +11,12 @@ jobs:
    steps:
     - name: what's the time
       run: date
-    - name: WebGL2 3D Perspective
-      run: echo "mat4.perspective(out, fov, aspect, near, far)"
+    - name: How CSS Perspective Works
+      run: |
+          echo "While perspective has no influence on the object when it’s moving on the X or Y axes, when the object is moving on the Z axis, perspective makes the square look bigger when it moves closer to us, and smaller when it moves further away. Yes, just like in “real” life."
+    - name: The perspective value
+      run: |
+          echo "We need to set the perspective property with a value. This value sets the distance from the object’s plane, or in other words, the perspective’s strength. The bigger the value, the further you are from the object; the smaller the value, the more noticeable the perspective will be."
+    - name: The perspective origin
+      run: |
+          echo "The perspective-origin property determines the position from which you are “looking” at an object. "
