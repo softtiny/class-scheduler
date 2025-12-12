@@ -11,12 +11,15 @@ jobs:
    steps:
     - name: what's the time
       run: date
-    - uses: actions/setup-python@v5
-      with:
-        python-version: '3.14.0-rc.1' 
-    - run: |
-        sudo apt-get install libxml2-dev libxslt1-dev zlib1g-dev libffi-dev libssl-dev > /dev/null
-        sudo apt-get install python3-lxml > /dev/null
-        pip install cryptography > /dev/null
-        pip install scrapy > /dev/null
-        scrapy --help
+    - name: perspective property
+      run: |
+         echo "Applied to a parent container, this establishes a shared 3D space and a single vanishing point for all its child elements"
+    - name: value
+      run: |
+         echo "A length unit (e.g., 500px) that defines the distance from the user to the Z=0 plane."
+    - name: wide-angle
+      run: |
+         echo "A smaller value creates a more intense"
+    - name: telephoto
+      run: |
+         echo "a larger value results in a more subtle"
