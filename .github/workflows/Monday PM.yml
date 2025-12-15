@@ -11,8 +11,8 @@ jobs:
    steps:
     - name: what's the time
       run: date
-    - name: 3D Perspective Algorithms 
-      run: echo "exactly what actually happens inside the GPU when you call mat4.perspective() and why it creates that realistic 'far = smaller' effect."
+    - name: Perspective
+      run: echo "To activate 3D space, an element needs perspective. This can be applied in two ways using the transform property, with the perspective as a functional notation."
     - name: The Core Perspective Algorithm
       run: |
           echo " (What the GPU really does)"
