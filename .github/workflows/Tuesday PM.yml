@@ -13,4 +13,4 @@ jobs:
       run: date
     - name: WebGL2 3D Perspective
       run: |
-          echo "Why is the fact that WebGL automatically divides by W useful? Because now, using more matrix magic, we can just use yet another matrix to copy z to w."
+          echo "set up the w-coordinate so that dividing by it performs a perspective divide."
