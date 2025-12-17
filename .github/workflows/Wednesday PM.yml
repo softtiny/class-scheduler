@@ -11,7 +11,6 @@ jobs:
    steps:
     - name: what's the time
       run: date
-    - name: git patch
-      run: echo "git format-patch ?"
-    - name: git stash remote
-      run: echo "git stash import/export" 
+    - name: Perspective Projection Matrix
+      run: |
+          echo "line1: 2n/r-1 0 r+l/r-l 0"
