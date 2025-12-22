@@ -17,3 +17,9 @@ jobs:
       run: |
           echo " (What the GPU really does)"
           echo "OpenGL-style perspective projection matrix."
+    - name: The Perspective Projection Matrix
+      run: |
+          echo "mat4.perspective(out, fovY, aspect, near, far)"
+          echo "f/aspect 0 0 0"
+          echo "0 f 0 0"
+          echo "..."
