@@ -11,6 +11,6 @@ jobs:
    steps:
     - name: what's the time
       run: date
-    - name: WebGL2 3D Perspective
+    - name: mat4.perspective(out, fov, aspect, near, far)
       run: |
-          echo "set up the w-coordinate so that dividing by it performs a perspective divide."
+          echo "out : mat4 : The receiving matrix (will be overwritten with the result)"
