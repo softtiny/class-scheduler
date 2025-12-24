@@ -14,3 +14,6 @@ jobs:
     - name: Perspective Projection Matrix
       run: |
           echo "line1: 2n/r-1 0 r+l/r-l 0"
+    - name: The Four Spaces a Vertex Travels Through
+      run: |
+          echo "Object/Model  | (x,y,z) local to the object | Model matrix (position, rotation, scale)"
