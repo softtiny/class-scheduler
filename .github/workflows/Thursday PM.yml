@@ -20,3 +20,6 @@ jobs:
     - name: The perspective origin
       run: |
           echo "The perspective-origin property determines the position from which you are “looking” at an object. "
+    - name: The Four Spaces a Vertex Travels Through
+      run: |
+          echo "World | (x,y,z) in the shared world | → World = Model × vertex"
