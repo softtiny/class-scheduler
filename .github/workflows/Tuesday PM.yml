@@ -14,3 +14,6 @@ jobs:
     - name: mat4.perspective(out, fov, aspect, near, far)
       run: |
           echo "out : mat4 : The receiving matrix (will be overwritten with the result)"
+    - name: mat4.perspective out,fov
+      run: |
+          echo "fovy : number : Field of view in radians in the vertical direction (y-axis)"
