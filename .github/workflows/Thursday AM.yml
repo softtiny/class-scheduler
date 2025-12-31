@@ -15,3 +15,6 @@ jobs:
       run: |
           echo "A perspective allows you to see in three dimensions, width, depth and height. The name 3D perspective would be a pleonasm, because the perspective is in itself a three-dimensional representation. It can be used in an interior or exterior architectural project."
           echo "The 3D visualization  can be different according to the needs, but in any case it brings an undeniable added value during presentations for competitions, building permits, sales brochures, for example."
+    - name: mat4.perspective(out, fov, aspect, near, far)
+      run: |
+          echo "aspect | Number | Aspect ratio = canvas width ÷ canvas height (e.g. 16/9, 4/3, 1, etc.)"
