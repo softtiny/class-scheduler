@@ -26,3 +26,6 @@ jobs:
     - name: The Four Spaces a Vertex Travels Through
       run: |
           echo "View / Eye / Camera | (x,y,z) relative to camera 	 | View matrix (inverse of camera transform)"
+    - name: xx
+      run: perspective(out,fovy,aspect,near,far)
+          echo "fovy | Number | Field of view in radians in the vertical direction (y-axis)"
