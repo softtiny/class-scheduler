@@ -19,3 +19,6 @@ jobs:
           echo "The new point, or shape, after the transformation, is called the image."
           echo "A transformation is a mapping of an object onto its image"
           echo "Reflection  Rotation  Enlargement "
+    - name: mat4.perspective out,fov,aspect
+      run: |
+          echo "aspect | Number | Aspect ratio = canvas width ÷ canvas height (e.g. 16/9, 4/3, 1, etc.)"
