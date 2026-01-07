@@ -17,3 +17,6 @@ jobs:
     - name: The Four Spaces a Vertex Travels Through
       run: |
           echo "Object/Model  | (x,y,z) local to the object | Model matrix (position, rotation, scale)"
+    - name: mat4.perspective out,fov,aspect,near
+      run: |
+          echo "near | Number | Distance to the near clipping plane (must be > 0)"
