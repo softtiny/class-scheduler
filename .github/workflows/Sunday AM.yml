@@ -11,7 +11,6 @@ jobs:
    steps:
     - name: what's the time
       run: date
-    - uses: actions-rust-lang/setup-rust-toolchain@v1
-    - run: |
-        cargo --version
-        rustc --version
+    - name: mat4.perspective out, fov, aspect, near, far
+      run: |
+          echo "far | number | Distance to the far clipping plane (must be > near)"
