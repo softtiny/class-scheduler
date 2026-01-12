@@ -26,6 +26,9 @@ jobs:
     - name: The Four Spaces a Vertex Travels Through
       run: |
           echo "View / Eye / Camera | (x,y,z) relative to camera 	 | View matrix (inverse of camera transform)"
-    - name: xx
-      run: perspective(out,fovy,aspect,near,far)
+    - name: perspective(out,fovy,aspect,near,far)
+      run: |
           echo "fovy | Number | Field of view in radians in the vertical direction (y-axis)"
+    - name: mat4.perspective Resulting matrix
+      run: 
+        echo "gl-matrix uses the standard OpenGL infinite-depth-buffer form when far is finite, and the reversed-Z form when far is Infinity."
